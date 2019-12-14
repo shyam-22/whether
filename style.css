@@ -1,0 +1,22 @@
+.winter
+{
+  background:url("./images/iceland-1979445_960_720.jpg") no-repeat center center;
+  width:100%;
+  height:800px;
+}
+
+
+.summer
+{
+  background:url("./images/children-817365__340.webp") no-repeat center center;
+  width:100px;
+  height:800px;
+}
+
+
+.monsoon
+{
+  background:url("./images/lightning-1158027__340.webp") no-repeat center center;
+  width:100px;
+  height:800px;
+};
