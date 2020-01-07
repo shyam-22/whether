@@ -1,5 +1,5 @@
 import React,{Component}from 'react';
-import Whether from './Whether';
+import Whether from "./Whether";
 
  
 
@@ -13,6 +13,7 @@ class App extends Component
      latitude :"",
      error :""
    };
+  
 
    window.navigator.geolocation.getCurrentPosition(position=>
     {
@@ -24,8 +25,7 @@ class App extends Component
       this.setState({error : err.message})
     }
     )
- };
-
+  };
 render()
       {
         
@@ -41,9 +41,6 @@ render()
             
             )
         
-      
-        
-  
   if(!this.state.latitude && this.state.error)
   {
     return(
